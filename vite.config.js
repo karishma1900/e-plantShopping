@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   build: {
-    outDir: './dist', // Update this line
+    outDir: './dist',
     emptyOutDir: true,
+    mkdirs: true, // Add this option
   },
   base: "/shoppingreact",
   plugins: [react()],
-
 });
