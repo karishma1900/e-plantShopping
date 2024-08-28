@@ -7,6 +7,6 @@ export default defineConfig({
     emptyOutDir: true,
     mkdirs: true, // Add this option
   },
-  base: "/shoppingreact",
+  base: "/",
   plugins: [react()],
 });
