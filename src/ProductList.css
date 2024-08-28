@@ -110,6 +110,12 @@ body {
 .product-button:hover {
     background-color: #c0392b;
 }
+.product-heading{
+    text-align: center;
+    padding:20px 0px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /* Pseudo-elements - Sale badge */
 .product-card::before {
